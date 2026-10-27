@@ -1,0 +1,35 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-9.1.1, pluggy-1.7.0 -- /usr/bin/python
+cachedir: .pytest_cache
+rootdir: /mnt/user-data/outputs/portfolio/project-b-python-validator
+collecting ... collected 27 items
+
+tests/test_validator.py::test_username[abc-expected0] PASSED             [  3%]
+tests/test_validator.py::test_username[aaaaaaaaaaaaaaaaaaaa-expected1] PASSED [  7%]
+tests/test_validator.py::test_username[ab-expected2] PASSED              [ 11%]
+tests/test_validator.py::test_username[aaaaaaaaaaaaaaaaaaaaa-expected3] PASSED [ 14%]
+tests/test_validator.py::test_username[bad name-expected4] PASSED        [ 18%]
+tests/test_validator.py::test_username[-expected5] PASSED                [ 22%]
+tests/test_validator.py::test_email[a@b.com-expected0] PASSED            [ 25%]
+tests/test_validator.py::test_email[first.last+tag@mail.example.co.ke-expected1] PASSED [ 29%]
+tests/test_validator.py::test_email[no-at-sign.com-expected2] PASSED     [ 33%]
+tests/test_validator.py::test_email[a@b-expected3] PASSED                [ 37%]
+tests/test_validator.py::test_email[-expected4] PASSED                   [ 40%]
+tests/test_validator.py::test_password[Passw0rd-expected0] PASSED        [ 44%]
+tests/test_validator.py::test_password[Pass0rd-expected1] PASSED         [ 48%]
+tests/test_validator.py::test_password[password1-expected2] PASSED       [ 51%]
+tests/test_validator.py::test_password[PASSWORD1-expected3] PASSED       [ 55%]
+tests/test_validator.py::test_password[Password-expected4] PASSED        [ 59%]
+tests/test_validator.py::test_age[18-expected0] PASSED                   [ 62%]
+tests/test_validator.py::test_age[120-expected1] PASSED                  [ 66%]
+tests/test_validator.py::test_age[17-expected2] PASSED                   [ 70%]
+tests/test_validator.py::test_age[121-expected3] PASSED                  [ 74%]
+tests/test_validator.py::test_age[abc-expected4] PASSED                  [ 77%]
+tests/test_validator.py::test_age[-expected5] PASSED                     [ 81%]
+tests/test_validator.py::test_country[Kenya-expected0] PASSED            [ 85%]
+tests/test_validator.py::test_country[-expected1] PASSED                 [ 88%]
+tests/test_validator.py::test_country[   -expected2] PASSED              [ 92%]
+tests/test_validator.py::test_valid_record_has_no_errors PASSED          [ 96%]
+tests/test_validator.py::test_sample_input_matches_expected_output PASSED [100%]
+
+============================== 27 passed in 0.05s ==============================

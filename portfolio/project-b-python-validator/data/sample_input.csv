@@ -1,0 +1,15 @@
+id,username,email,password,age,country
+1,alice_w,alice@example.com,Passw0rdOK,29,Kenya
+2,bo,bo@example.com,Passw0rdOK,30,Kenya
+3,charlie!,charlie@example.com,Passw0rdOK,25,Uganda
+4,dana,dana.example.com,Passw0rdOK,41,Kenya
+5,eve99,eve@example.com,short1A,22,Kenya
+6,frank,frank@example.com,alllowercase1,35,Tanzania
+7,grace,grace@example.com,ALLUPPERCASE1,35,Kenya
+8,heidi,heidi@example.com,NoDigitsHere,28,Kenya
+9,ivan,ivan@example.com,Passw0rdOK,17,Kenya
+10,judy,judy@example.com,Passw0rdOK,abc,Kenya
+11,ken,ken@example.com,Passw0rdOK,52,
+12,l,bad-email,abc,5,
+13,mia_20,mia@example.com,Passw0rdOK,18,Kenya
+14,nate,nate@example.com,Passw0rdOK,120,Kenya
