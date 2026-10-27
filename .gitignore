@@ -1,0 +1,15 @@
+# Dependencies
+.venv/
+portfolio/project-a-website-qa/node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Playwright
+portfolio/project-a-website-qa/playwright-report/
+portfolio/project-a-website-qa/test-results/
+
+# Editor files
+.vscode/*.log
